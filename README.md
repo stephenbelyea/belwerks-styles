@@ -56,7 +56,7 @@ Children of a `.flex` container have a few modifiers as well:
 
 ### Sizing
 
-Use  `.page-...` to set based on the page container (`vw`/`vh`) and `.container-...` to set to `100%` height or width of the element's parent.
+Use  `.page-` to set based on the page size (`vw`/`vh`) and `.container-` to set based on the element's parent.
 
 ```css
 .page-height
@@ -67,22 +67,22 @@ Use  `.page-...` to set based on the page container (`vw`/`vh`) and `.container-
 
 ### Utilities
 
+Collapse padding and border sizes when calculating the width of an element:
+
 ```css
 .border-box
 ```
 
-Collapse padding and border sizes when calculating the width of an element.
+Set an element's display to `block` or `inline-block`:
 
 ```css
 .block
 .inline
 ```
 
-Set an element's display to `block` or `inline-block`.
+Hide an element entirely, or hide only from view - leaving it readable by assistive tech (eg. screen readers):
 
 ```css
 .hidden
 .visually-hidden
 ```
-
-Hide an element entirely, or hide only from view - leaving it to be read by assistive tech (eg. screen readers).
