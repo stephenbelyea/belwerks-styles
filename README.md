@@ -41,7 +41,7 @@ Use `.flex` and modifier classes to apply flexbox styles to a container element:
   &.right
   &.top
   &.bottom
-  &.basline
+  &.baseline
 ```
 
 Children of a `.flex` container have a few modifiers as well:
