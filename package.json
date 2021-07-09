@@ -1,7 +1,7 @@
 {
   "name": "belwerks-styles",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple utility styles to get up and running quickly and consistently.",
   "main": "index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/stephenbelyea/belwerks-styles/issues"
   },
-  "homepage": "https://github.com/stephenbelyea/belwerks-styles#readme"
+  "homepage": "https://github.com/stephenbelyea/belwerks-styles#readme",
+  "keywords": [
+    "css",
+    "styles",
+    "flexbox",
+    "utility",
+    "belwerks"
+  ]
 }
