@@ -1,0 +1,22 @@
+:root {
+  --primary-dark: #860b15;
+  --primary-medium: #cf1020;
+  --primary-light: #f8c1c5;
+
+  --secondary-dark: #353434;
+  --secondary-medium: #5d5555;
+  --secondary-light: #ebdbdb;
+
+  --font-size-base: 1.25rem;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: var(--font-size-base);
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
+}

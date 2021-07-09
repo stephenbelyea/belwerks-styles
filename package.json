@@ -1,0 +1,19 @@
+{
+  "name": "@belwerks/styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenbelyea/belwerks-styles.git"
+  },
+  "author": "Stephen Belyea <hello@belwerks.com> (https://belwerks.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephenbelyea/belwerks-styles/issues"
+  },
+  "homepage": "https://github.com/stephenbelyea/belwerks-styles#readme"
+}
