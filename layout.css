@@ -42,18 +42,18 @@
   align-items: baseline;
 }
 
-.flex .shrink {
+.flex > .shrink {
   flex-shrink: 1;
 }
 
-.flex .no-shrink {
+.flex > .no-shrink {
   flex-shrink: 0;
 }
 
-.flex .grow {
+.flex > .grow {
   flex-grow: 1;
 }
 
-.flex .no-grow {
+.flex > .no-grow {
   flex-grow: 0;
 }
