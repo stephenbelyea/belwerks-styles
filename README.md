@@ -1,6 +1,15 @@
 # Belwerks | Styles
 
-Simple utility styles to get up and running quickly and consistently.
+Simple utility styles to get up and running quickly and consistently. It's all written in plain CSS, with no dependencies or bloat. Link, download, or import any or all of the stylesheets and start using the utility classes right away!
+
+Here's a silly example:
+
+```html
+<div class="page-height margin-center flex space-between top">
+  <span class="grow">Hello there!</span>
+  <span class="shrink visually-hidden">General Kenobi...</span>
+</div>
+```
 
 ## Install
 
