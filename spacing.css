@@ -7,3 +7,16 @@
   --spacing-xlarge: 1.5rem;
   --spacing-xxlarge: 1.75rem; 
 }
+
+.margin-none {
+  margin: 0;
+}
+
+.margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding-none {
+  padding: 0;
+}
