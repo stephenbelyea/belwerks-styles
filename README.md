@@ -38,7 +38,9 @@ Stylesheets aren't cross-dependant, so you won't run into errors from only grabb
 
 ## Preview
 
-You can serve the demo HTML page from the root directory by running:
+Find the demo page live here: https://stephenbelyea.github.io/belwerks-styles/
+
+Or, you can serve it from the root directory by running:
 
 ```
 npm run serve
