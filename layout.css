@@ -3,6 +3,11 @@
   align-items: center;
   align-content: stretch;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex.no-wrap {
+  flex-wrap: nowrap;
 }
 
 .flex.space-around {
@@ -35,4 +40,20 @@
 
 .flex.basline {
   align-items: baseline;
+}
+
+.flex .shrink {
+  flex-shrink: 1;
+}
+
+.flex .no-shrink {
+  flex-shrink: 0;
+}
+
+.flex .grow {
+  flex-grow: 1;
+}
+
+.flex .no-grow {
+  flex-grow: 0;
 }
