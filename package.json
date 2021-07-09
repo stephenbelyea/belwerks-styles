@@ -4,7 +4,8 @@
   "description": "Simple utility styles to get up and running quickly and consistently.",
   "main": "index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx light-server -s . -p 9090"
   },
   "repository": {
     "type": "git",

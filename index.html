@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Belwerks | Styles</title>
+  <link rel="stylesheet" type="text/css" href="./index.css" />
+  <style>
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .wrap {
+      padding: 1rem 2rem 1rem;
+      margin: 0 auto;
+      max-width: 38rem;
+    }
+
+    .parent {
+      border: dashed tomato 0.15rem;
+      border-radius: 0.5rem;
+      margin: 0 0 2.5rem;
+      padding: 0.5rem;
+    }
+
+    .child {
+      background: crimson;
+      border-radius: 0.35rem;
+      color: white;
+      margin: 0.5rem;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Belwerks | Styles</h1>
+    <h2>Layout</h2>
+    <h3>Flex (parent)</h3>
+    <pre>.flex</pre>
+    <p>Defaults to center alignment (x/y) and overflow wrapping.</p>
+    <div class="parent flex" style="height: 8rem;">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <pre>.flex.no-wrap</pre>
+    <div class="parent flex no-wrap">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <pre>.flex.space-around</pre>
+    <div class="parent flex space-around">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <pre>.flex.space-between</pre>
+    <div class="parent flex space-between">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <pre>.flex.space-evenly</pre>
+    <div class="parent flex space-evenly">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <pre>.flex.left</pre>
+    <div class="parent flex left">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <pre>.flex.right</pre>
+    <div class="parent flex right">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <pre>.flex.top</pre>
+    <div class="parent flex top" style="height: 8rem;">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <pre>.flex.bottom</pre>
+    <div class="parent flex bottom" style="height: 8rem;">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <h3>Flex (children)</h3>
+    <pre>.flex > .shrink</pre>
+    <pre>.flex > .grow</pre>
+    <div class="parent flex">
+      <div class="child shrink">Shrink</div>
+      <div class="child grow">Grow</div>
+    </div>
+    <pre>.flex > .no-shrink</pre>
+    <pre>.flex > .no-grow</pre>
+    <div class="parent flex">
+      <div class="child no-shrink">No shrink</div>
+      <div class="child no-grow">No grow</div>
+    </div>
+  </div>
+</body>
+
+</html>

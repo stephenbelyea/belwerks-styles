@@ -20,10 +20,22 @@ Or you can grab one or more separate stylesheets, if you don't want the whole th
 
 ```jsx
 import 'belwerks-styles/layout.css';
+import 'belwerks-styles/sizing.css';
+import 'belwerks-styles/spacing.css';
 import 'belwerks-styles/utilities.css';
 ```
 
 Stylesheets aren't cross-dependant, so you won't run into errors from only grabbing the one(s) you want.
+
+## Preview
+
+You can serve the demo HTML page from the root directory by running:
+
+```
+npm run serve
+```
+
+And open http://localhost:9090 in your browser.
 
 ## Styles
 
@@ -63,6 +75,21 @@ Use  `.page-` to set based on the page size (`vw`/`vh`) and `.container-` to set
 .page-width
 .container-height
 .container-width
+```
+
+### Spacing
+
+Remove existing margins or padding from an element:
+
+```css
+.margin-none
+.padding-none
+```
+
+Center an element within its parent:
+
+```css
+.margin-center
 ```
 
 ### Utilities
