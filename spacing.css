@@ -1,0 +1,9 @@
+:root {
+  --spacing-xxsmall: 0.25rem;
+  --spacing-xsmall: 0.5rem;
+  --spacing-small: 0.75rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.25rem;
+  --spacing-xlarge: 1.5rem;
+  --spacing-xxlarge: 1.75rem; 
+}
