@@ -2,10 +2,11 @@
   "name": "belwerks-styles",
   "version": "1.0.3",
   "description": "Simple utility styles to get up and running quickly and consistently.",
-  "main": "index.css",
+  "main": "src/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npx light-server -s . -p 9090"
+    "watch": "npx light-server -s ./src -p 9090 -w \"src/*.css, src/*.html\"",
+    "serve": "npx light-server -s ./src -p 9090"
   },
   "repository": {
     "type": "git",

@@ -28,6 +28,7 @@ import 'belwerks-styles';
 Or you can grab one or more separate stylesheets, if you don't want the whole thing:
 
 ```jsx
+import 'belwerks-styles/global.css';
 import 'belwerks-styles/layout.css';
 import 'belwerks-styles/sizing.css';
 import 'belwerks-styles/spacing.css';
@@ -47,6 +48,14 @@ npm run serve
 ```
 
 And open http://localhost:9090 in your browser.
+
+## Local development
+
+All styles are written in plain CSS, so you won't need transpilers, webpack, module-loading, or any other fancy stuff. You can serve the demo page and watch for changes by running:
+
+```
+npm run watch
+```
 
 ## Styles
 
@@ -102,6 +111,28 @@ Center an element within its parent:
 ```css
 .margin-center
 ```
+
+Add margins or padding to all sides, x/y sides, or top/right/bottom/left sides of an element using the following class syntax:
+
+```css
+.margin-medium
+.margin-medium-x
+.margin-medium-y
+.margin-medium-top
+.margin-medium-right
+.margin-medium-bottom
+.margin-medium-left
+```
+
+These classes will work with both `margin` and `padding`, using the same syntax. The size term (`medium` in the snippet above) can be any of the following:
+
+* `xxsmall`
+* `xsmall`
+* `small`
+* `medium`
+* `large`
+* `xlarge`
+* `xxlarge`
 
 ### Utilities
 

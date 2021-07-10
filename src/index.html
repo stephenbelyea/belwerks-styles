@@ -16,6 +16,7 @@
       padding: 1rem 2rem 1rem;
       margin: 0 auto;
       max-width: 38rem;
+      overflow-x: hidden;
     }
 
     .parent {
@@ -38,8 +39,19 @@
 <body>
   <div class="wrap">
     <h1>Belwerks | Styles</h1>
-    <h2>Layout</h2>
-    <h3>Flex (parent)</h3>
+    <nav>
+      <ul class="no-list">
+        <li>
+          <a href="#layout">Layout</a>
+          <ul>
+            <li><a href="#flex-parent">Flex (parent)</a></li>
+            <li><a href="#flex-children">Flex (children)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <h2 id="layout">Layout</h2>
+    <h3 id="flex-parent">Flex (parent)</h3>
     <pre>.flex</pre>
     <p>Defaults to center alignment (x/y) and overflow wrapping.</p>
     <div class="parent flex" style="height: 8rem;">
@@ -102,7 +114,7 @@
       <div class="child"></div>
       <div class="child"></div>
     </div>
-    <h3>Flex (children)</h3>
+    <h3 id="flex-children">Flex (children)</h3>
     <pre>.flex > .shrink</pre>
     <pre>.flex > .grow</pre>
     <div class="parent flex">
