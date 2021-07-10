@@ -155,3 +155,9 @@ Hide an element entirely, or hide only from view - leaving it readable by assist
 .hidden
 .visually-hidden
 ```
+
+Remove default list bullet or number styling by applying this to the `ul` or `ol`:
+
+```css
+.no-list
+```
