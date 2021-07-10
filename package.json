@@ -5,8 +5,8 @@
   "main": "src/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "npx light-server -s ./src -p 9090 -w \"src/*.css, src/*.html\"",
-    "serve": "npx light-server -s ./src -p 9090"
+    "watch": "npx light-server -s . -p 9090 -w \"src/*.css, index.html\"",
+    "serve": "npx light-server -s . -p 9090"
   },
   "repository": {
     "type": "git",
