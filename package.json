@@ -1,6 +1,6 @@
 {
   "name": "belwerks-styles",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Simple utility styles to get up and running quickly and consistently.",
   "main": "src/index.css",
   "scripts": {
