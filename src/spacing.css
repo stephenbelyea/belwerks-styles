@@ -24,335 +24,335 @@
 .margin-xxsmall,
 .margin-xxsmall-y,
 .margin-xxsmall-top {
-  margin-top: var(--sizing-xxsmall);
+  margin-top: var(--spacing-xxsmall);
 }
 
 .margin-xxsmall,
 .margin-xxsmall-x,
 .margin-xxsmall-right {
-  margin-right: var(--sizing-xxsmall);
+  margin-right: var(--spacing-xxsmall);
 }
 
 .margin-xxsmall,
 .margin-xxsmall-y,
 .margin-xxsmall-bottom {
-  margin-bottom: var(--sizing-xxsmall);
+  margin-bottom: var(--spacing-xxsmall);
 }
 
 .margin-xxsmall,
 .margin-xxsmall-x,
 .margin-xxsmall-left {
-  margin-left: var(--sizing-xxsmall);
+  margin-left: var(--spacing-xxsmall);
 }
 
 .margin-xsmall,
 .margin-xsmall-y,
 .margin-xsmall-top {
-  margin-top: var(--sizing-xsmall);
+  margin-top: var(--spacing-xsmall);
 }
 
 .margin-xsmall,
 .margin-xsmall-x,
 .margin-xsmall-right {
-  margin-right: var(--sizing-xsmall);
+  margin-right: var(--spacing-xsmall);
 }
 
 .margin-xsmall,
 .margin-xsmall-y,
 .margin-xsmall-bottom {
-  margin-bottom: var(--sizing-xsmall);
+  margin-bottom: var(--spacing-xsmall);
 }
 
 .margin-xsmall,
 .margin-xsmall-x,
 .margin-xsmall-left {
-  margin-left: var(--sizing-xsmall);
+  margin-left: var(--spacing-xsmall);
 }
 
 .margin-small,
 .margin-small-y,
 .margin-small-top {
-  margin-top: var(--sizing-small);
+  margin-top: var(--spacing-small);
 }
 
 .margin-small,
 .margin-small-x,
 .margin-small-right {
-  margin-right: var(--sizing-small);
+  margin-right: var(--spacing-small);
 }
 
 .margin-small,
 .margin-small-y,
 .margin-small-bottom {
-  margin-bottom: var(--sizing-small);
+  margin-bottom: var(--spacing-small);
 }
 
 .margin-small,
 .margin-small-x,
 .margin-small-left {
-  margin-left: var(--sizing-small);
+  margin-left: var(--spacing-small);
 }
 
 .margin-medium,
 .margin-medium-y,
 .margin-medium-top {
-  margin-top: var(--sizing-medium);
+  margin-top: var(--spacing-medium);
 }
 
 .margin-medium,
 .margin-medium-x,
 .margin-medium-right {
-  margin-right: var(--sizing-medium);
+  margin-right: var(--spacing-medium);
 }
 
 .margin-medium,
 .margin-medium-y,
 .margin-medium-bottom {
-  margin-bottom: var(--sizing-medium);
+  margin-bottom: var(--spacing-medium);
 }
 
 .margin-medium,
 .margin-medium-x,
 .margin-medium-left {
-  margin-left: var(--sizing-medium);
+  margin-left: var(--spacing-medium);
 }
 
 .margin-large,
 .margin-large-y,
 .margin-large-top {
-  margin-top: var(--sizing-large);
+  margin-top: var(--spacing-large);
 }
 
 .margin-large,
 .margin-large-x,
 .margin-large-right {
-  margin-right: var(--sizing-large);
+  margin-right: var(--spacing-large);
 }
 
 .margin-large,
 .margin-large-y,
 .margin-large-bottom {
-  margin-bottom: var(--sizing-large);
+  margin-bottom: var(--spacing-large);
 }
 
 .margin-large,
 .margin-large-x,
 .margin-large-left {
-  margin-left: var(--sizing-large);
+  margin-left: var(--spacing-large);
 }
 
 .margin-xlarge,
 .margin-xlarge-y,
 .margin-xlarge-top {
-  margin-top: var(--sizing-xlarge);
+  margin-top: var(--spacing-xlarge);
 }
 
 .margin-xlarge,
 .margin-xlarge-x,
 .margin-xlarge-right {
-  margin-right: var(--sizing-xlarge);
+  margin-right: var(--spacing-xlarge);
 }
 
 .margin-xlarge,
 .margin-xlarge-y,
 .margin-xlarge-bottom {
-  margin-bottom: var(--sizing-xlarge);
+  margin-bottom: var(--spacing-xlarge);
 }
 
 .margin-xlarge,
 .margin-xlarge-x,
 .margin-xlarge-left {
-  margin-left: var(--sizing-xlarge);
+  margin-left: var(--spacing-xlarge);
 }
 
 .margin-xxlarge,
 .margin-xxlarge-y,
 .margin-xxlarge-top {
-  margin-top: var(--sizing-xxlarge);
+  margin-top: var(--spacing-xxlarge);
 }
 
 .margin-xxlarge,
 .margin-xxlarge-x,
 .margin-xxlarge-right {
-  margin-right: var(--sizing-xxlarge);
+  margin-right: var(--spacing-xxlarge);
 }
 
 .margin-xxlarge,
 .margin-xxlarge-y,
 .margin-xxlarge-bottom {
-  margin-bottom: var(--sizing-xxlarge);
+  margin-bottom: var(--spacing-xxlarge);
 }
 
 .margin-xxlarge,
 .margin-xxlarge-x,
 .margin-xxlarge-left {
-  margin-left: var(--sizing-xxlarge);
+  margin-left: var(--spacing-xxlarge);
 }
 
 .padding-xxsmall,
 .padding-xxsmall-y,
 .padding-xxsmall-top {
-  padding-top: var(--sizing-xxsmall);
+  padding-top: var(--spacing-xxsmall);
 }
 
 .padding-xxsmall,
 .padding-xxsmall-x,
 .padding-xxsmall-right {
-  padding-right: var(--sizing-xxsmall);
+  padding-right: var(--spacing-xxsmall);
 }
 
 .padding-xxsmall,
 .padding-xxsmall-y,
 .padding-xxsmall-bottom {
-  padding-bottom: var(--sizing-xxsmall);
+  padding-bottom: var(--spacing-xxsmall);
 }
 
 .padding-xxsmall,
 .padding-xxsmall-x,
 .padding-xxsmall-left {
-  padding-left: var(--sizing-xxsmall);
+  padding-left: var(--spacing-xxsmall);
 }
 
 .padding-xsmall,
 .padding-xsmall-y,
 .padding-xsmall-top {
-  padding-top: var(--sizing-xsmall);
+  padding-top: var(--spacing-xsmall);
 }
 
 .padding-xsmall,
 .padding-xsmall-x,
 .padding-xsmall-right {
-  padding-right: var(--sizing-xsmall);
+  padding-right: var(--spacing-xsmall);
 }
 
 .padding-xsmall,
 .padding-xsmall-y,
 .padding-xsmall-bottom {
-  padding-bottom: var(--sizing-xsmall);
+  padding-bottom: var(--spacing-xsmall);
 }
 
 .padding-xsmall,
 .padding-xsmall-x,
 .padding-xsmall-left {
-  padding-left: var(--sizing-xsmall);
+  padding-left: var(--spacing-xsmall);
 }
 
 .padding-small,
 .padding-small-y,
 .padding-small-top {
-  padding-top: var(--sizing-small);
+  padding-top: var(--spacing-small);
 }
 
 .padding-small,
 .padding-small-x,
 .padding-small-right {
-  padding-right: var(--sizing-small);
+  padding-right: var(--spacing-small);
 }
 
 .padding-small,
 .padding-small-y,
 .padding-small-bottom {
-  padding-bottom: var(--sizing-small);
+  padding-bottom: var(--spacing-small);
 }
 
 .padding-small,
 .padding-small-x,
 .padding-small-left {
-  padding-left: var(--sizing-small);
+  padding-left: var(--spacing-small);
 }
 
 .padding-medium,
 .padding-medium-y,
 .padding-medium-top {
-  padding-top: var(--sizing-medium);
+  padding-top: var(--spacing-medium);
 }
 
 .padding-medium,
 .padding-medium-x,
 .padding-medium-right {
-  padding-right: var(--sizing-medium);
+  padding-right: var(--spacing-medium);
 }
 
 .padding-medium,
 .padding-medium-y,
 .padding-medium-bottom {
-  padding-bottom: var(--sizing-medium);
+  padding-bottom: var(--spacing-medium);
 }
 
 .padding-medium,
 .padding-medium-x,
 .padding-medium-left {
-  padding-left: var(--sizing-medium);
+  padding-left: var(--spacing-medium);
 }
 
 .padding-large,
 .padding-large-y,
 .padding-large-top {
-  padding-top: var(--sizing-large);
+  padding-top: var(--spacing-large);
 }
 
 .padding-large,
 .padding-large-x,
 .padding-large-right {
-  padding-right: var(--sizing-large);
+  padding-right: var(--spacing-large);
 }
 
 .padding-large,
 .padding-large-y,
 .padding-large-bottom {
-  padding-bottom: var(--sizing-large);
+  padding-bottom: var(--spacing-large);
 }
 
 .padding-large,
 .padding-large-x,
 .padding-large-left {
-  padding-left: var(--sizing-large);
+  padding-left: var(--spacing-large);
 }
 
 .padding-xlarge,
 .padding-xlarge-y,
 .padding-xlarge-top {
-  padding-top: var(--sizing-xlarge);
+  padding-top: var(--spacing-xlarge);
 }
 
 .padding-xlarge,
 .padding-xlarge-x,
 .padding-xlarge-right {
-  padding-right: var(--sizing-xlarge);
+  padding-right: var(--spacing-xlarge);
 }
 
 .padding-xlarge,
 .padding-xlarge-y,
 .padding-xlarge-bottom {
-  padding-bottom: var(--sizing-xlarge);
+  padding-bottom: var(--spacing-xlarge);
 }
 
 .padding-xlarge,
 .padding-xlarge-x,
 .padding-xlarge-left {
-  padding-left: var(--sizing-xlarge);
+  padding-left: var(--spacing-xlarge);
 }
 
 .padding-xxlarge,
 .padding-xxlarge-y,
 .padding-xxlarge-top {
-  padding-top: var(--sizing-xxlarge);
+  padding-top: var(--spacing-xxlarge);
 }
 
 .padding-xxlarge,
 .padding-xxlarge-x,
 .padding-xxlarge-right {
-  padding-right: var(--sizing-xxlarge);
+  padding-right: var(--spacing-xxlarge);
 }
 
 .padding-xxlarge,
 .padding-xxlarge-y,
 .padding-xxlarge-bottom {
-  padding-bottom: var(--sizing-xxlarge);
+  padding-bottom: var(--spacing-xxlarge);
 }
 
 .padding-xxlarge,
 .padding-xxlarge-x,
 .padding-xxlarge-left {
-  padding-left: var(--sizing-xxlarge);
+  padding-left: var(--spacing-xxlarge);
 }
